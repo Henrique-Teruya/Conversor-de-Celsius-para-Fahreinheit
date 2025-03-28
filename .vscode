@@ -1,0 +1,26 @@
+package ConversorCpF;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author henrique.tqueiroz
+ */
+public class ConversorCpF {
+
+   
+    public static void main(String[] args) 
+        
+        double X = 1.8;
+        double C;
+                
+        Scanner batata = new Scanner (System.in);
+        
+        System.out.println("Diite a temperatura em C");
+        C = batata.nextDouble();
+        
+        double F = C * X + 32;
+        System.out.println("A temperatura em F e" + F);
+    }
+    
+}
